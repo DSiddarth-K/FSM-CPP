@@ -15,14 +15,16 @@ State class that has the states as objects using polymorphism, allows for object
 The machine stores a pointer to the current active object. 
 Set State takes the address of the object reference which is stored in the current state pointer
 
-Intuitive (maps nicely to “state = object”)
-Easy to write per-state logic
-Modular and easy to to add states
+Pros:
+-Intuitive (maps nicely to “state = object”)
+-Easy to write per-state logic
+-Modular and easy to to add states
 
-Hard to debug at runtime
-Poor memory/cache efficiency
-Harder to visualize transitions
-Bad traceability
+Cons:
+-Hard to debug at runtime
+-Poor memory/cache efficiency
+-Harder to visualize transitions
+-Bad traceability
 
 
 Notes
