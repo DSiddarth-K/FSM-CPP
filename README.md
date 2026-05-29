@@ -16,16 +16,15 @@ The machine stores a pointer to the current active object.
 Set State takes the address of the object reference which is stored in the current state pointer
 
 Pros:
--Intuitive (maps nicely to “state = object”)
--Easy to write per-state logic
--Modular and easy to to add states
+- Intuitive (maps nicely to “state = object”)
+- Easy to write per-state logic
+- Modular and easy to to add states
 
 Cons:
--Hard to debug at runtime
--Poor memory/cache efficiency
--Harder to visualize transitions
--Bad traceability
-
+- Hard to debug at runtime
+- Poor memory/cache efficiency
+- Harder to visualize transitions
+- Bad traceability
 
 Notes
 -------------------------
